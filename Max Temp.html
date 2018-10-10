@@ -1,88 +1,92 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="en-us">
+
 <head>
-	<meta charset="utf-8" />
-	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 
-    <title>Latitude vs. Humidity</title>
+  <meta charset="UTF-8">
+  <title>Latitude vs. Max Temperature</title>
 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
-    <meta name="viewport" content="width=device-width" />
-
-    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-    <link href='http://fonts.googleapis.com/css?family=Roboto:400,700,300' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="style.css">
-
-</head>	  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+	  
 <body>
-    <div class="container-fluid">
-        <nav class="navbar navbar-inverse">
-            <div class="container-fluid">
-                <div class="navbar-header">
-                    <a class="navbar-brand" href="Landing.html"><span class="latitude">Latitude</a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls=" navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                    </button>
-                </div>
-                <ul class="nav navbar-nav navbar-right">
-                    <li>
-                        <div class="dropdown">
-                            <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Plots
-                            <span class="caret"></span></button> 
-                            <ul class="dropdown-menu">
-                                <li><a href="Max Temp.html">Latitude vs. Max Temperature</a></li>
-                                <li><a href="Humidity.html">Latitude vs. Humidity</a></li>
-                                <li><a href="Cloudiness.html">Latitude vs. Cloudiness</a></li>
-                                <li><a href="Wind Speed.html">Latitude vs. Wind Speed</a></li>
-                            </ul>
-                        </div>
-                    </li>
-                    <li>
-                        <a class="nav-link" href="Comparisons.html"><span class="c-d">Comparison</a>
-                    </li>
-                    <li>
-                        <a class="nav-link" href="Data.html"><span class="c-d">Data</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-	   
-	    <div class="content">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-sm-12 col-md-8">
-                        <div class="box">
-                            <div class="header">
-                                <h1 class="title">Max Temperature</h1>
-                            </div>
-                            <div class="content">
-                               <img src="Max Temp.png" alt="Latitude vs. Max Temperature" class="img-responsive">
-	                           <p class="category">From City Latitude vs Max Temperature, we can tell latitude is one of the main factors affecting the temperature. Cities that are located between a latitude from -15 to 15 had the highest temperatures. The further away you get from the equator, each cities temperature gets lower. The northern temperature ranges are greater than the southern ranges at corresponding latitudes. In general, places at high latitudes are colder than places at low latitudes. 
-	                           </p>
-                            </div>
-                        </div>
-                    </div>
+        <nav class="navbar navbar-default">
+                <div class="container-fluid">
 
-                    <div class="col-sm-12 col-md-4">
-                        <div class="box">
-                            <div class="header">
-                                <h1 class="title">Visualizations</h1>
-                            </div>
-                            <div class="content">
-                               <a href="Max Temp.html"><img src="Max Temp.png" alt="Latitude vs. Max Temperature" height="180" width="180"></a>
-	                           <a href="Humidity.html"><img src="Humidity.png" alt="Latitude vs. Humidity" height="180" width="180"></a>
-	                           <a href="Cloudiness.html"><img src="Cloudiness.png" alt="Latitude vs. Cloudiness" height="180" width="180"></a>
-	                           <a href="Wind Speed.html"><img src="Wind Speed.png" alt="Latitude vs. Wind Speed" height="180" width="180"></a>
-	                        </div>
-	                    </div>
-	                </div>
-	            </div>
-			</div>
-		</div>
-	</div>
-</body>
+                  <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                      <span class="sr-only">Toggle navigation</span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="Landing.html">Latitude</a>
+                  </div>
+              
+
+                  <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    
+                    <ul class="nav navbar-nav navbar-right">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Plots <span class="caret"></span></a>
+                        <li class="dropdown"></li>
+                        <li><a href="Comparisons.html">Comparisons</a></li>
+                      <li><a href="Data.html">Data</a></li>
+                        <ul class="dropdown-menu">
+                          <li><a href="Max Temp.html">Max Temperature</a></li>
+                          <li><a href="Humidity.html">Humidity</a></li>
+                          <li><a href="Cloudiness.html">Cloudiness</a></li>
+                          <li role="separator" class="divider"></li>
+                          <li><a href="Wind Speed.html">Wind Speed</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+              
+              <div class="container">
+                  <div class="row">
+                   <div class="col-md-1"></div>  
+                     <div class="col-md-6">
+                    <h1>Max Temperature</h1>
+                      <img src="Max Temp.png" width="400" height="350">
+                      <p>There is a negative correlation between latitude and temperature. The graph shows cities that are closer to the equator tend to be warmer than cities that are further from the equator. Cities that are located in the southern hemisphere tend to be warmer than cities in the northern hemisphere.</p>
+                   </div>    
+                     <div class="col-md-4 sidebar">
+                      <div class="row">
+                        <div class="col-md-12">
+                          <h1>Visualizations</h1>
+                        </div>
+                      </div>
+                     <div class="row">
+              
+                        <div class="col-md-3">    
+                             <a href="Max Temp.html">Max Temperature<img src="Max Temp.png" width="200px" height="150px"></a>
+                        </div>
+                        <div class="col-md-3"></div>
+                      
+                        <div class="col-md-3">  
+                             <a href="Humidity.html">Humidity<img src="Humidity.png" width="200px" height="150px"></a>
+                        </div>
+                        <div class="col-md-3"></div>  
+                     </div>   
+                     <div class ="row"> 
+                        
+                        <div class="col-md-3">  
+                          <a href="Cloudiness.html">Cloudiness<img src="Cloudiness.png" width="200px" height="150px"></a>
+                        </div>
+                        <div class="col-md-3"></div>
+                        
+                        <div class="col-md-3">     
+                          <a href="Wind Speed.html">Wind Speed<img src="Wind Speed.png" width="200px" height="150px"></a>
+                        </div>
+                        <div class="col-md-3"></div>
+                      </div>    
+                   </div>         
+                  <div class="col-md-1"></div>
+                </div>      
+              </div>	 	
+              </body>	
 
 </html>
