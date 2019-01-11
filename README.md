@@ -64,7 +64,7 @@ Provides two more links on the right: "Comparisons" which links to the compariso
 Is responsive (using media queries). The nav must have similar behavior as the screenshots "Navigation Menu" section (notice the background color change).
 
 
-Considerations
+Considerations:
 
 
 You may use the weather data or choose another dataset. Alternatively, you may use the included cities dataset and pull the images from the assets folder.
